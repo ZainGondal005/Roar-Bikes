@@ -1,25 +1,24 @@
-.navbutton{
-    background-color: rgb(199, 180, 172);
-   
-    width: 100px;
-    padding: 11px 25px;
-    text-align: center;
-   position: relative;
-    display: inline-block;
+.navbutton {
+  background-color: rgb(199, 180, 172);
 
+  width: 100px;
+  padding: 11px 25px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
 }
 
-.navbutton-box{
-    display: none;
-    position: absolute;
-    padding-top: 15px;
-    margin-left: -27px;
-    z-index: 99;
+.navbutton-box {
+  display: none;
+  position: absolute;
+  padding-top: 15px;
+  margin-left: -27px;
+  z-index: 99;
 }
-.navbutton:hover .navbutton-box{
-    display: block;
+.navbutton:hover .navbutton-box {
+  display: block;
 }
 .navbutton-box .navbutton:hover {
-    background-color: rgb(224, 182, 27);
-    transition-duration: 1s;
+  background-color: rgb(224, 182, 27);
+  transition-duration: 1s;
 }
