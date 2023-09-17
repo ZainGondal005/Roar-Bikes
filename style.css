@@ -1,0 +1,153 @@
+html {
+  background-image: linear-gradient(#fc5e55, #fa4083);
+}
+body {
+  background-image: url(images/image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.125rem;
+}
+.container {
+  width: 1024px;
+  /* background-color: chartreuse; */
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  min-height: 100px;
+  /* background-color: darkgreen; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dotted rgba(0, 0, 0, 0.477);
+}
+main {
+  min-height: 240px;
+  /* background-color: darkolivegreen; */
+  display: flex;
+  align-items: center;
+}
+.cards {
+  /* background-color: aqua; */
+  min-height: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards1 {
+  min-height: 100px;
+  width: 27%;
+  background-size: cover;
+  background-position: bottom;
+  /* background-color: blueviolet; */
+  background-image: url(images/image-background-card1.jpg);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards2 {
+  min-height: 100px;
+  width: 27%;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(images/image-background-card2.jpg);
+}
+.cards3 {
+  min-height: 100px;
+  width: 27%;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(images/image-background-card3.jpg);
+}
+.cards1,
+.cards2,
+.cards3 {
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.289);
+}
+.main1 {
+  flex: 2;
+  /* background-color: cadetblue; */
+  padding-right: 80px;
+}
+.main2 {
+  flex: 1;
+  /* background-color: brown; */
+}
+h1 {
+  font-size: 3.25rem;
+  margin-bottom: 1rem;
+  font-family: "playfair Display", serif;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.289);
+}
+p {
+  line-height: 1.75rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.button {
+  background-color: wheat;
+  color: #fa4083;
+  border-radius: 14px 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.289);
+  font-size: 21px;
+  padding: 11px 21px;
+  font-family: serif;
+}
+nav a.button {
+  margin-left: 20px;
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #eedb07af;
+  transition-duration: 1s;
+}
+.new {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+.div1 {
+  min-height: 300px;
+  width: 45%;
+  border: 1px solid;
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.div1 p:last-child {
+  font-size: 13px;
+  text-align: left;
+}
+.inputwraper {
+  margin-top: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
